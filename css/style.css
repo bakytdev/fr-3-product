@@ -692,5 +692,75 @@ button {
     align-items: center;
 }
 
+#what {
+    padding: 80px 0;
+}
+
+.what h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    text-align: center;
+}
+
+.what p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #22343D;
+    padding: 8px 0 50px 0;
+}
+
+.what-block {
+    width: 301px;
+    height: 236px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 26px;
+}
+
+.stars ion-icon {
+    color: #F3CD03;
+    font-size: 20px;
+}
 
 
+.what-block h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #737373;
+    width: 275px;
+}
+
+.what-block-user div h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #02897A;
+}
+
+.what-block-user div h4 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #252B42;
+}
+
+.what-block-user {
+    display: flex;
+    align-items: center;
+}
+
+.what-block-user div {
+    padding-left: 14px;
+}
+
+.what-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
