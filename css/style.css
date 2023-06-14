@@ -764,3 +764,133 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+
+#join {
+    padding: 80px 0;
+}
+
+.join-block {
+    width: 85%;
+    height: 345px;
+    background: #02897A;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.join-block-text h1 {
+    width: 500px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-bottom: 75px;
+}
+
+.join-block-text button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897A;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 30px;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    padding: 46px 0;
+}
+
+.footer-general {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.footer-icons div {
+    width: 40px;
+    height: 40px;
+    background: #EDFFFC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.footer-icons div a {
+    color: #02897A;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
+.footer-text a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 8px 0;
+}
+
+.footer-input h2 {
+    width: 280px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
+.footer-input input {
+    margin: 34px 0 21px 0;
+    padding: 0 10px;
+    height: 48px;
+    width: 305px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.footer-input button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 15px 25px;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer h1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    text-align: center;
+}
